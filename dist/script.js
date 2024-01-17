@@ -52,7 +52,7 @@ const preload = () => {
 	createCamera() {
   
 	  this.camera = new THREE.PerspectiveCamera( 65, this.container.clientWidth /  this.container.clientHeight, 1, 10000 );
-	  this.camera.position.set( 0,0, 100 );
+	  this.camera.position.set( 0,0, 75 );
   
 	}
   
@@ -102,7 +102,7 @@ const preload = () => {
 			  amount: 1000,
 			  particleSize: 1,
 			  particleColor: '#c77d48',
-			  textSize: 24,
+			  textSize: 12,
 			  area: 1250,
 			  ease: .05,
 		  }
